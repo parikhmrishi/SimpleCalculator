@@ -1,0 +1,55 @@
+html {
+  background: #100a1c;
+  background-attachment: fixed;
+  color: #6cacc5;
+}
+
+body {
+  color: #6cacc5;
+  font: 18px "Arial";
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 0;
+}
+
+.calculator {
+  font-size: 40px;
+  margin: 0 auto;
+  width: 10em;
+}
+
+
+
+.viewer,div input[type = "text"] {
+  border: 0;
+  background-color: #100a1c;
+  color: #c97874;
+  float: left;
+  font: inherit;
+  line-height: 3em;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 7.5em;
+  height: 3em;
+}
+
+input[type = "button"] {
+  border: 0;
+  background: #11184e;
+  color: #6cacc5;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  
+}
+input[type = "button"]:hover {
+  background: #16142b;
+}

@@ -7,6 +7,8 @@ function clearInput() {
 }
 
 function calculateResult() {
-	var result = eval(document.getElementById('inputwindow').value);
+	var result = eval(document.getElementById('inputwindow').value.toFixed(2));
+	if(result == "Infinity")
+		result = "Divide by Zero";
 	document.getElementById('inputwindow').value = result;
 }

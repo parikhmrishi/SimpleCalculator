@@ -17,26 +17,8 @@ h1 {
   margin: 0;
 }
 
-.calculator {
-  font-size: 40px;
-  margin: 0 auto;
-  width: 10em;
-}
-
-
-
-.viewer,div input[type = "text"] {
-  border: 0;
-  background-color: #100a1c;
-  color: #c97874;
-  float: left;
-  font: inherit;
-  line-height: 3em;
-  text-align: right;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  width: 7.5em;
-  height: 3em;
+input[type = "button"]:hover {
+  background: #16142b;
 }
 
 input[type = "button"] {
@@ -50,6 +32,34 @@ input[type = "button"] {
   height: 2em;
   
 }
-input[type = "button"]:hover {
-  background: #16142b;
+
+input[type = "button"]:focus {
+  outline:none;
 }
+
+#equal {
+  color: #FFF;
+  background-color: #c97874;
+  border-radius: 20px;
+}
+
+
+.calculator {
+  font-size: 40px;
+  margin: 0 auto;
+  width: 10em;
+}
+
+.viewer,div input[type = "text"] {
+  border: 0;
+  background-color: #100a1c;
+  color: #c97874;
+  float: left;
+  font: inherit;
+  line-height: 3em;
+  text-align: right;
+  overflow: none;
+  width: 7.5em;
+  height: 3em;
+}
+
